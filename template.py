@@ -1,6 +1,11 @@
 import os
 from pathlib import Path
 
+""" Explanation on what the below code snippet is doing:
+    Make sure that the directory filedir exists. Then, check if filepath exists AND has some content in it. 
+    If filepath doesn't exist, or if it exists but is empty, then create it (or make it empty). 
+    Otherwise, if filepath already exists and has content, just print a message saying it's there."""
+
 project_name = "src"
 
 list_of_files = [
