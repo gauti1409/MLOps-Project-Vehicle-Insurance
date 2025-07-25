@@ -36,7 +36,7 @@
 
 ----------------------------------------------- Data Ingestion -----------------------------------------------
 17. Before we work on "Data Ingestion" component >> Declare variables within constants.__init__.py file >> 
-    add code to configuration.mongo_db_connections.py file and define the func for mondodb connection >> 
+    add code to configuration.mongo_db_connections.py file and define the func for mongodb connection >> 
     Inside "data_access" folder, add code to proj1_data that will use mongo_db_connections.py
     to connect with DB, fetch data in key-val format and transform that to df >>
     add code to entity.config_entity.py file till DataIngestionConfig class >>
@@ -54,6 +54,7 @@
     To setup the connection url on Windows, open env variable setting option and add a new variable:
     Name: MONGODB_URL, Value = <url>
     Also add "artifact" dir to .gitignore file
+    "C:\Users\Dhruv\anaconda3\envs\vehicle_env\Lib\venv\scripts\common\Activate.ps1"
 
 ---------------------------- Data Validation, Data Transformation & Model Trainer ----------------------------
 
